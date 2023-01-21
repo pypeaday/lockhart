@@ -28,6 +28,8 @@ your `OPENAI_API_KEY` environment variable.
 
 ```bash
 export OPENAI_API_KEY='sk-***'
+# or if you keep your apikey in a file
+export OPENAI_API_KEY=$(cat ~/.openai/apikey)
 ```
 
 Lockhart it currently very crude, it works out of the clipboard. Copy a
